@@ -8,3 +8,12 @@ Before you begin, make sure you have Python 3.7+ installed.
    ```bash
    git clone https://github.com/your-username/your-repo.git
    cd your-repo
+
+2. **Create and activate a virtual environment**
+```bash
+python3 -m venv .venv 
+
+3. **Install dependencies**
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
